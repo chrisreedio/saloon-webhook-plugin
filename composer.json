@@ -1,18 +1,19 @@
 {
-    "name": "sammyjo20/package-template",
-    "description": "Description",
+    "name": "chrisreedio/saloon-webhook-plugin",
+    "description": "Adds webhook helpers to Saloon",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Sam Carré",
-            "email": "29132017+Sammyjo20@users.noreply.github.com",
+            "name": "Chris Reed",
+            "email": "chris@reedtech.io",
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/sammyjo20",
+    "homepage": "https://github.com/chrisreedio",
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "saloonphp/saloon": "^3.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.5",
@@ -23,8 +24,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Sammyjo20\\Package\\": "src/",
-            "Sammyjo20\\Package\\Tests\\": "tests/"
+            "ChrisReedIO\\Saloon\\WebhookPlugin\\": "src/",
+            "ChrisReedIO\\Saloon\\WebhookPlugin\\Tests\\": "tests/"
         }
     },
     "config": {
